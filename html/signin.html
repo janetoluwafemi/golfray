@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GOfarm Palace</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-fadeUp {
+            animation: fadeUp 0.8s ease forwards;
+        }
+    </style>
+</head>
+
+<body class="bg-[#f5f1e8] font-sans">
+<div class="min-h-screen flex flex-col items-center justify-center px-6 py-10">
+    <div class="flex items-center gap-2 mb-8 animate-fadeUp">
+        <span class="text-green-700 text-xl">🌱</span>
+        <h1 class="text-green-800 font-medium text-2xl">GOfarm Palace</h1>
+    </div>
+    <h2 class="text-5xl font-normal text-gray-800 mb-5 animate-fadeUp">
+        Welcome to GOfarm Palace
+    </h2>
+
+    <p class="text-gray-500 text-lg mb-10 animate-fadeUp">
+        Who are you?
+    </p>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-5xl">
+        <div class="bg-white rounded-xl shadow-md p-8 transition transform hover:-translate-y-2 hover:scale-[1.02] hover:shadow-xl animate-fadeUp">
+            <div class="w-16 h-16 rounded-full bg-green-700 flex items-center justify-center text-white text-xl mb-4 transition transform hover:rotate-6">
+                🌱
+            </div>
+            <h3 class="text-2xl font-normal text-gray-800 mb-1">Farmer</h3>
+            <p class="text-gray-500 mt-3 text-base">
+                Sell your produce directly to buyers without middlemen
+            </p>
+        </div>
+        <div class="bg-white rounded-xl shadow-md p-8 transition transform hover:-translate-y-2 hover:scale-[1.02] hover:shadow-xl animate-fadeUp delay-100">
+            <div class="w-16 h-16 rounded-full bg-amber-800 flex items-center justify-center text-white text-xl mb-4 transition transform hover:rotate-6">                🛒
+            </div>
+            <h3 class="text-2xl font-normal text-gray-800 mb-1">Buyer</h3>
+            <p class="text-gray-500 mt-3 text-base">
+                Purchase fresh produce directly from verified farms
+            </p>
+        </div>
+        <div class="bg-white rounded-xl shadow-md p-8 transition transform hover:-translate-y-2 hover:scale-[1.02] hover:shadow-xl animate-fadeUp delay-200">
+            <div class="w-16 h-16 rounded-full bg-green-600 flex items-center justify-center text-white text-xl mb-4 transition transform hover:rotate-6">
+                🚚
+            </div>
+            <h3 class="text-2xl font-normal text-gray-800 mb-1">Distributor</h3>
+            <p class="text-gray-500 mt-3 text-base">
+                Provide logistics and delivery services for farm produce
+            </p>
+        </div>
+        <div class="bg-white rounded-xl shadow-md p-8 transition transform hover:-translate-y-2 hover:scale-[1.02] hover:shadow-xl animate-fadeUp delay-300">
+            <div class="w-16 h-16 rounded-full bg-yellow-500 flex items-center justify-center text-white text-xl mb-4 transition transform hover:rotate-6">
+                👥
+            </div>
+            <h3 class="text-2xl font-normal text-gray-800 mb-1">Cooperative</h3>
+            <p class="text-gray-500 mt-3 text-base">
+                Manage multiple farms and collective sales
+            </p>
+        </div>
+
+    </div>
+    <a href="#" class="mt-8 text-gray-500 hover:text-gray-800 transition animate-fadeUp">
+        ← Back to Home
+    </a>
+
+</div>
+
+</body>
+</html>

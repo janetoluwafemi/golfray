@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <title>GOfarm Palace | Nigeria's Smart Agricultural Marketplace</title>
+    <style>
+        .font-serif { font-family: 'Playfair Display', serif; }
+        .font-lato { font-family: 'Lato', sans-serif; }
+    </style>
+</head>
+<body class="bg-[#F9F9F7] font-lato text-[#111111]">
+
+<header class="fixed top-0 left-0 w-full bg-white/95 backdrop-blur-md border-b border-gray-100 z-[100] px-6 py-4 flex justify-between items-center">
+    <div class="flex items-center gap-2">
+        <div class="w-8 h-8 bg-[#2D5A27] rounded-lg flex items-center justify-center text-white text-xs font-bold">GP</div>
+        <h1 class="text-[#2D5A27] font-bold text-xl tracking-tight font-serif">GOfarm Palace</h1>
+    </div>
+    <nav class="hidden lg:flex gap-8 text-[#666666] font-medium">
+        <a href="#" class="text-[#2D5A27]">Home</a>
+        <a href="#" class="hover:text-[#2D5A27] transition">Marketplace</a>
+        <a href="#" class="hover:text-[#2D5A27] transition">How It Works</a>
+        <a href="#" class="hover:text-[#2D5A27] transition">About</a>
+        <a href="#" class="hover:text-[#2D5A27] transition">Contact</a>
+    </nav>
+    <div class="flex items-center gap-4 md:gap-6">
+        <a href="#" class="text-[#666666] font-medium hidden sm:block">Login</a>
+        <button class="bg-[#2D5A27] text-white px-6 py-2.5 rounded-lg font-medium hover:bg-[#23471f] transition shadow-md">
+            Register
+        </button>
+    </div>
+</header>
+
+<section class="relative h-[90vh] flex items-center pt-20 overflow-hidden">
+    <div class="absolute inset-0 z-0">
+        <img src="https://images.unsplash.com/photo-1594488651099-001691372d3b?auto=format&fit=crop&q=80" class="w-full h-full object-cover" alt="African Farming">
+        <div class="absolute inset-0 bg-black/45"></div>
+    </div>
+    <div class="relative z-10 container mx-auto px-6">
+        <div class="max-w-4xl text-white animate-[fadeIn_1s_ease_in]">
+            <h2 class="text-5xl md:text-7xl font-bold leading-[1.1] mb-6 font-serif">
+                Empowering Farmers. <br> Connecting Markets. <br> Growing Africa.
+            </h2>
+            <p class="text-lg md:text-xl text-gray-200 mb-10 max-w-2xl leading-relaxed opacity-90">
+                Nigeria's leading agricultural marketplace connecting farmers directly with buyers. Fair prices, verified farms, reliable delivery.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4">
+                <button class="bg-[#2D5A27] px-8 py-4 rounded-lg font-bold flex items-center justify-center gap-2 hover:scale-105 transition-transform shadow-lg">
+                    Sell Your Produce
+                </button>
+                <button class="bg-white text-[#2D5A27] px-8 py-4 rounded-lg font-bold flex items-center justify-center gap-2 hover:bg-gray-100 transition shadow-lg">
+                    Explore Marketplace
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="py-16 px-6 bg-[#F9F9F7]">
+    <div class="container mx-auto">
+        <div class="flex justify-between items-end mb-10">
+            <div>
+                <h3 class="text-[32px] font-bold text-[#111111] mb-1 font-serif">Featured Products</h3>
+                <p class="text-[#666666] text-sm">Fresh from verified farms across Nigeria</p>
+            </div>
+            <button class="border border-[#2D5A27] text-[#2D5A27] px-5 py-2 rounded-lg font-medium hover:bg-[#2D5A27] hover:text-white transition">
+                View All <span>→</span>
+            </button>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <div class="bg-white rounded-[16px] overflow-hidden shadow-sm hover:shadow-md transition">
+                <div class="relative h-[240px]">
+                    <img src="https://images.unsplash.com/photo-1592924357228-91a4daadcfea?auto=format&fit=crop&q=80" class="w-full h-full object-cover">
+                    <div class="absolute top-3 left-3 bg-white/90 px-3 py-1 rounded-full text-[11px] font-bold text-[#2D5A27]">🌿 Organic</div>
+                    <div class="absolute top-3 right-3 bg-white rounded-full p-1.5"><div class="w-4 h-4 bg-[#2D5A27] rounded-full flex items-center justify-center text-[10px] text-white">✓</div></div>
+                </div>
+                <div class="p-5">
+                    <h4 class="text-[18px] font-bold">Fresh Tomatoes</h4>
+                    <div class="flex items-center gap-1 mb-3 text-yellow-400 text-sm">★ <span class="text-black font-bold text-[13px]">4.8</span></div>
+                    <div class="text-[13px] text-[#666666] mb-5"><p>Sunrise Farms</p><p>📍 Kaduna State</p></div>
+                    <p class="text-[22px] font-bold text-[#2D5A27] mb-6">₦12,000 <span class="text-[12px] font-normal text-gray-400">per basket</span></p>
+                    <div class="grid grid-cols-2 gap-3">
+                        <button class="bg-[#2D5A27] text-white py-2.5 rounded-lg text-[13px] font-bold hover:bg-[#23471f]">Add to Cart</button>
+                        <button class="border border-[#2D5A27] text-[#2D5A27] py-2.5 rounded-lg text-[13px] font-bold hover:bg-gray-50">View Details</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-[16px] overflow-hidden shadow-sm hover:shadow-md transition">
+                <div class="relative h-[240px]">
+                    <img src="https://images.unsplash.com/photo-1551754655-cd27e38d2076?auto=format&fit=crop&q=80" class="w-full h-full object-cover">
+                    <div class="absolute top-3 right-3 bg-white rounded-full p-1.5"><div class="w-4 h-4 bg-[#2D5A27] rounded-full flex items-center justify-center text-[10px] text-white">✓</div></div>
+                </div>
+                <div class="p-5">
+                    <h4 class="text-[18px] font-bold">Yellow Corn (Maize)</h4>
+                    <div class="flex items-center gap-1 mb-3 text-yellow-400 text-sm">★ <span class="text-black font-bold text-[13px]">4.6</span></div>
+                    <div class="text-[13px] text-[#666666] mb-5"><p>Golden Harvest</p><p>📍 Kano State</p></div>
+                    <p class="text-[22px] font-bold text-[#2D5A27] mb-6">₦18,500 <span class="text-[12px] font-normal text-gray-400">per bag</span></p>
+                    <div class="grid grid-cols-2 gap-3">
+                        <button class="bg-[#2D5A27] text-white py-2.5 rounded-lg text-[13px] font-bold hover:bg-[#23471f]">Add to Cart</button>
+                        <button class="border border-[#2D5A27] text-[#2D5A27] py-2.5 rounded-lg text-[13px] font-bold hover:bg-gray-50">View Details</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-[16px] overflow-hidden shadow-sm hover:shadow-md transition">
+                <div class="relative h-[240px]">
+                    <img src="https://images.unsplash.com/photo-1635338140417-66b93108f97b?auto=format&fit=crop&q=80" class="w-full h-full object-cover">
+                    <div class="absolute top-3 left-3 bg-white/90 px-3 py-1 rounded-full text-[11px] font-bold text-[#2D5A27]">🌿 Organic</div>
+                    <div class="absolute top-3 right-3 bg-white rounded-full p-1.5"><div class="w-4 h-4 bg-[#2D5A27] rounded-full flex items-center justify-center text-[10px] text-white">✓</div></div>
+                </div>
+                <div class="p-5">
+                    <h4 class="text-[18px] font-bold">Fresh Cassava</h4>
+                    <div class="flex items-center gap-1 mb-3 text-yellow-400 text-sm">★ <span class="text-black font-bold text-[13px]">4.9</span></div>
+                    <div class="text-[13px] text-[#666666] mb-5"><p>Heritage Roots</p><p>📍 Ogun State</p></div>
+                    <p class="text-[22px] font-bold text-[#2D5A27] mb-6">₦8,500 <span class="text-[12px] font-normal text-gray-400">per bag</span></p>
+                    <div class="grid grid-cols-2 gap-3">
+                        <button class="bg-[#2D5A27] text-white py-2.5 rounded-lg text-[13px] font-bold hover:bg-[#23471f]">Add to Cart</button>
+                        <button class="border border-[#2D5A27] text-[#2D5A27] py-2.5 rounded-lg text-[13px] font-bold hover:bg-gray-50">View Details</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-[16px] overflow-hidden shadow-sm hover:shadow-md transition">
+                <div class="relative h-[240px]">
+                    <img src="https://images.unsplash.com/photo-1576045057995-568f588f82fb?auto=format&fit=crop&q=80" class="w-full h-full object-cover">
+                    <div class="absolute top-3 left-3 bg-white/90 px-3 py-1 rounded-full text-[11px] font-bold text-[#2D5A27]">🌿 Organic</div>
+                    <div class="absolute top-3 right-3 bg-white rounded-full p-1.5"><div class="w-4 h-4 bg-[#2D5A27] rounded-full flex items-center justify-center text-[10px] text-white">✓</div></div>
+                </div>
+                <div class="p-5">
+                    <h4 class="text-[18px] font-bold">Organic Spinach</h4>
+                    <div class="flex items-center gap-1 mb-3 text-yellow-400 text-sm">★ <span class="text-black font-bold text-[13px]">5.0</span></div>
+                    <div class="text-[13px] text-[#666666] mb-5"><p>Green Valley Organic</p><p>📍 Plateau State</p></div>
+                    <p class="text-[22px] font-bold text-[#2D5A27] mb-6">₦6,500 <span class="text-[12px] font-normal text-gray-400">per crate</span></p>
+                    <div class="grid grid-cols-2 gap-3">
+                        <button class="bg-[#2D5A27] text-white py-2.5 rounded-lg text-[13px] font-bold hover:bg-[#23471f]">Add to Cart</button>
+                        <button class="border border-[#2D5A27] text-[#2D5A27] py-2.5 rounded-lg text-[13px] font-bold hover:bg-gray-50">View Details</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-[16px] overflow-hidden shadow-sm hover:shadow-md transition">
+                <div class="relative h-[240px]">
+                    <img src="https://images.unsplash.com/photo-1566385101042-1a0aa0c1268c?auto=format&fit=crop&q=80" class="w-full h-full object-cover">
+                    <div class="absolute top-3 left-3 bg-white/90 px-3 py-1 rounded-full text-[11px] font-bold text-[#2D5A27]">🌿 Organic</div>
+                    <div class="absolute top-3 right-3 bg-white rounded-full p-1.5"><div class="w-4 h-4 bg-[#2D5A27] rounded-full flex items-center justify-center text-[10px] text-white">✓</div></div>
+                </div>
+                <div class="p-5">
+                    <h4 class="text-[18px] font-bold">Sweet Peppers</h4>
+                    <div class="flex items-center gap-1 mb-3 text-yellow-400 text-sm">★ <span class="text-black font-bold text-[13px]">4.7</span></div>
+                    <div class="text-[13px] text-[#666666] mb-5"><p>Sunrise Farms</p><p>📍 Kaduna State</p></div>
+                    <p class="text-[22px] font-bold text-[#2D5A27] mb-6">₦15,000 <span class="text-[12px] font-normal text-gray-400">per crate</span></p>
+                    <div class="grid grid-cols-2 gap-3">
+                        <button class="bg-[#2D5A27] text-white py-2.5 rounded-lg text-[13px] font-bold hover:bg-[#23471f]">Add to Cart</button>
+                        <button class="border border-[#2D5A27] text-[#2D5A27] py-2.5 rounded-lg text-[13px] font-bold hover:bg-gray-50">View Details</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-[16px] overflow-hidden shadow-sm hover:shadow-md transition">
+                <div class="relative h-[240px]">
+                    <img src="https://images.unsplash.com/photo-1586201327693-866199f1230e?auto=format&fit=crop&q=80" class="w-full h-full object-cover">
+                    <div class="absolute top-3 right-3 bg-white rounded-full p-1.5"><div class="w-4 h-4 bg-[#2D5A27] rounded-full flex items-center justify-center text-[10px] text-white">✓</div></div>
+                </div>
+                <div class="p-5">
+                    <h4 class="text-[18px] font-bold">White Rice</h4>
+                    <div class="flex items-center gap-1 mb-3 text-yellow-400 text-sm">★ <span class="text-black font-bold text-[13px]">4.5</span></div>
+                    <div class="text-[13px] text-[#666666] mb-5"><p>Rice Valley Cooperative</p><p>📍 Kebbi State</p></div>
+                    <p class="text-[22px] font-bold text-[#2D5A27] mb-6">₦45,000 <span class="text-[12px] font-normal text-gray-400">per bag</span></p>
+                    <div class="grid grid-cols-2 gap-3">
+                        <button class="bg-[#2D5A27] text-white py-2.5 rounded-lg text-[13px] font-bold hover:bg-[#23471f]">Add to Cart</button>
+                        <button class="border border-[#2D5A27] text-[#2D5A27] py-2.5 rounded-lg text-[13px] font-bold hover:bg-gray-50">View Details</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="py-24 bg-[#FAF9F6] px-6">
+    <div class="container mx-auto text-center max-w-3xl mb-16">
+        <h2 class="text-5xl font-bold mb-4 font-serif">The Challenge We're Solving</h2>
+        <p class="text-[#666666] text-lg">Breaking down barriers in Nigerian agriculture</p>
+    </div>
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white p-10 rounded-3xl text-center shadow-sm">
+            <div class="w-16 h-16 bg-green-50 text-[#2D5A27] rounded-2xl flex items-center justify-center mx-auto mb-6 text-2xl font-bold">↗</div>
+            <h5 class="text-xl font-bold mb-4">Middlemen Exploitation</h5>
+            <p class="text-gray-500 mb-6 leading-relaxed">Farmers lose up to 60% of profits to intermediaries who add no real value</p>
+            <p class="text-4xl font-bold text-[#2D5A27]">60%</p>
+        </div>
+        <div class="bg-white p-10 rounded-3xl text-center shadow-sm">
+            <div class="w-16 h-16 bg-green-50 text-[#2D5A27] rounded-2xl flex items-center justify-center mx-auto mb-6 text-2xl font-bold">📦</div>
+            <h5 class="text-xl font-bold mb-4">Post-Harvest Losses</h5>
+            <p class="text-gray-500 mb-6 leading-relaxed">Billions lost annually due to poor storage and logistics infrastructure</p>
+            <p class="text-4xl font-bold text-[#2D5A27]">₦4B+</p>
+        </div>
+        <div class="bg-white p-10 rounded-3xl text-center shadow-sm">
+            <div class="w-16 h-16 bg-green-50 text-[#2D5A27] rounded-2xl flex items-center justify-center mx-auto mb-6 text-2xl font-bold">🛡️</div>
+            <h5 class="text-xl font-bold mb-4">Lack of Trust</h5>
+            <p class="text-gray-500 mb-6 leading-relaxed">No transparency in sourcing, quality verification, or fair pricing</p>
+            <p class="text-4xl font-bold text-[#2D5A27]">0%</p>
+        </div>
+    </div>
+</section>
+
+<section class="py-24 px-6 bg-white">
+    <div class="container mx-auto text-center mb-16">
+        <h2 class="text-4xl font-bold mb-3 font-serif">How GOfarm Works</h2>
+        <p class="text-[#666666] text-lg">Simple, transparent, effective</p>
+    </div>
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 max-w-6xl">
+        <div class="text-center">
+            <div class="w-20 h-20 bg-[#2D5A27] text-white rounded-full flex items-center justify-center mx-auto mb-8 text-3xl font-bold shadow-xl">1</div>
+            <h4 class="text-2xl font-bold mb-4">Register & Get Verified</h4>
+            <p class="text-gray-500 leading-relaxed">Simple onboarding process with farm verification to build trust and credibility</p>
+        </div>
+        <div class="text-center">
+            <div class="w-20 h-20 bg-[#2D5A27] text-white rounded-full flex items-center justify-center mx-auto mb-8 text-3xl font-bold shadow-xl">2</div>
+            <h4 class="text-2xl font-bold mb-4">List Your Produce</h4>
+            <p class="text-gray-500 leading-relaxed">Upload products with photos and pricing. AI suggests optimal market prices</p>
+        </div>
+        <div class="text-center">
+            <div class="w-20 h-20 bg-[#2D5A27] text-white rounded-full flex items-center justify-center mx-auto mb-8 text-3xl font-bold shadow-xl">3</div>
+            <h4 class="text-2xl font-bold mb-4">Sell & Track Delivery</h4>
+            <p class="text-gray-500 leading-relaxed">Receive orders with real-time delivery tracking from farm to customer</p>
+        </div>
+    </div>
+</section>
+<section class="py-24 bg-[#F9F9F7] px-6">
+    <div class="container mx-auto">
+        <h2 class="text-4xl md:text-5xl font-bold text-[#111111] text-center mb-16 font-serif tracking-tight">
+            Why Choose GOfarm Palace?
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+
+            <div class="bg-white p-8 rounded-[20px] shadow-sm border border-gray-100 flex flex-col items-start hover:shadow-md transition-shadow">
+                <div class="w-12 h-12 bg-green-50 rounded-full flex items-center justify-center mb-6 text-[#2D5A27] text-xl">
+                    ✓
+                </div>
+                <h3 class="text-xl font-bold text-[#111111] mb-3">Verified Farms</h3>
+                <p class="text-[#666666] leading-relaxed text-[15px]">
+                    Every farm is verified for authenticity and quality standards
+                </p>
+            </div>
+
+            <div class="bg-white p-8 rounded-[20px] shadow-sm border border-gray-100 flex flex-col items-start hover:shadow-md transition-shadow">
+                <div class="w-12 h-12 bg-green-50 rounded-full flex items-center justify-center mb-6 text-[#2D5A27] text-xl">
+                    ↗
+                </div>
+                <h3 class="text-xl font-bold text-[#111111] mb-3">AI Price Intelligence</h3>
+                <p class="text-[#666666] leading-relaxed text-[15px]">
+                    Smart pricing suggestions based on real market data
+                </p>
+            </div>
+
+            <div class="bg-white p-8 rounded-[20px] shadow-sm border border-gray-100 flex flex-col items-start hover:shadow-md transition-shadow">
+                <div class="w-12 h-12 bg-green-50 rounded-full flex items-center justify-center mb-6 text-[#2D5A27] text-xl">
+                    📱
+                </div>
+                <h3 class="text-xl font-bold text-[#111111] mb-3">Easy to Use</h3>
+                <p class="text-[#666666] leading-relaxed text-[15px]">
+                    Simple interface designed for all literacy levels
+                </p>
+            </div>
+
+            <div class="bg-white p-8 rounded-[20px] shadow-sm border border-gray-100 flex flex-col items-start hover:shadow-md transition-shadow">
+                <div class="w-12 h-12 bg-green-50 rounded-full flex items-center justify-center mb-6 text-[#2D5A27] text-xl">
+                    🛡️
+                </div>
+                <h3 class="text-xl font-bold text-[#111111] mb-3">Secure Payment</h3>
+                <p class="text-[#666666] leading-relaxed text-[15px]">
+                    Escrow system protects both farmers and buyers
+                </p>
+            </div>
+
+            <div class="bg-white p-8 rounded-[20px] shadow-sm border border-gray-100 flex flex-col items-start hover:shadow-md transition-shadow">
+                <div class="w-12 h-12 bg-green-50 rounded-full flex items-center justify-center mb-6 text-[#2D5A27] text-xl">
+                    📍
+                </div>
+                <h3 class="text-xl font-bold text-[#111111] mb-3">Real-time Tracking</h3>
+                <p class="text-[#666666] leading-relaxed text-[15px]">
+                    Track your delivery from farm to destination
+                </p>
+            </div>
+
+            <div class="bg-white p-8 rounded-[20px] shadow-sm border border-gray-100 flex flex-col items-start hover:shadow-md transition-shadow">
+                <div class="w-12 h-12 bg-green-50 rounded-full flex items-center justify-center mb-6 text-[#2D5A27] text-xl">
+                    🌐
+                </div>
+                <h3 class="text-xl font-bold text-[#111111] mb-3">Export Ready</h3>
+                <p class="text-[#666666] leading-relaxed text-[15px]">
+                    Connect local farmers to international markets
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section class="bg-[#2D5A27] py-28 text-white text-center px-6">
+    <h2 class="text-5xl font-medium mb-6 font-serif">Our Impact</h2>
+    <p class="text-green-100 text-lg mb-20 max-w-xl mx-auto opacity-80">Building a better future for Nigerian agriculture</p>
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-16">
+        <div>
+            <div class="text-5xl font-medium tracking-tighter mb-4">12,500+</div>
+            <p class="text-green-100 text-lg tracking-wide font-semibold">Farmers Empowered</p>
+        </div>
+        <div>
+            <div class="text-6xl font-medium tracking-tighter mb-4">45,000</div>
+            <p class="text-green-100 text-lg tracking-wide font-semibold">Tonnes Delivered</p>
+        </div>
+        <div>
+            <div class="text-6xl font-medium tracking-tighter mb-4">250+</div>
+            <p class="text-green-100 text-lg tracking-wide font-semibold">Communities Impacted</p>
+        </div>
+    </div>
+</section>
+<section class="py-24 bg-white px-6">
+    <div class="container mx-auto text-center max-w-4xl">
+        <h2 class="text-3xl md:text-5xl font-light text-[#111111] leading-tight mb-8 font-serif">
+            Join Nigeria's Smart Agricultural Marketplace
+        </h2>
+
+        <p class="text-[#666666] text-lg md:text-xl leading-relaxed mb-12 max-w-3xl mx-auto">
+            Whether you're a farmer looking to expand your reach or a buyer seeking fresh, quality produce, GOfarm Palace is your platform.
+        </p>
+
+        <div class="flex flex-col sm:flex-row justify-center gap-4">
+            <button class="bg-[#2D5A27] text-white px-10 py-4 rounded-lg font-bold text-lg hover:bg-[#23471f] transition-all shadow-md">
+                Get Started Today
+            </button>
+            <button class="border-2 border-[#2D5A27] text-[#2D5A27] px-10 py-4 rounded-lg font-bold text-lg hover:bg-[#2D5A27] hover:text-white transition-all shadow-sm">
+                Explore Marketplace
+            </button>
+        </div>
+    </div>
+</section>
+<footer class="bg-[#0A1121] text-white py-24 px-6">
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 border-b border-gray-800 pb-20">
+        <div class="col-span-1 md:col-span-1">
+            <div class="flex items-center gap-2 mb-6">
+                <div class="w-8 h-8 bg-[#2D5A27] rounded-lg"></div>
+                <h1 class="text-white font-bold text-xl font-serif">GOfarm Palace</h1>
+            </div>
+            <p class="text-gray-400 leading-relaxed">Empowering farmers across Nigeria</p>
+        </div>
+        <div>
+            <h6 class="font-bold mb-8 text-lg">Product</h6>
+            <ul class="space-y-4 text-gray-400">
+                <li><a href="#" class="hover:text-white transition">Marketplace</a></li>
+                <li><a href="#" class="hover:text-white transition">For Farmers</a></li>
+                <li><a href="#" class="hover:text-white transition">For Buyers</a></li>
+            </ul>
+        </div>
+        <div>
+            <h6 class="font-bold mb-8 text-lg">Company</h6>
+            <ul class="space-y-4 text-gray-400">
+                <li><a href="#" class="hover:text-white transition">About</a></li>
+                <li><a href="#" class="hover:text-white transition">Contact</a></li>
+                <li><a href="#" class="hover:text-white transition">Careers</a></li>
+            </ul>
+        </div>
+        <div>
+            <h6 class="font-bold mb-8 text-lg">Legal</h6>
+            <ul class="space-y-4 text-gray-400">
+                <li><a href="#" class="hover:text-white transition">Privacy</a></li>
+                <li><a href="#" class="hover:text-white transition">Terms</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container mx-auto pt-10 flex flex-col md:flex-row justify-between items-center text-gray-500 text-sm">
+        <p>© 2026 GOfarm Palace. All rights reserved.</p>
+        <div class="flex gap-6 mt-4 md:mt-0">
+            <a href="#" class="hover:text-white">Twitter</a>
+            <a href="#" class="hover:text-white">LinkedIn</a>
+            <a href="#" class="hover:text-white">Instagram</a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

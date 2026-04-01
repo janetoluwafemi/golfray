@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom';
+import {Link, NavLink} from 'react-router-dom';
 
 const Header = () => {
     const linkClasses = ({ isActive }) =>
@@ -19,9 +19,11 @@ const Header = () => {
             </nav>
             <div className="flex items-center gap-4 md:gap-6">
                 <NavLink to="/login" className="text-[#666666] font-medium hidden sm:block">Login</NavLink>
-                <button className="bg-[#2D5A27] text-white px-6 py-2.5 rounded-lg font-medium hover:bg-[#23471f] transition shadow-md">
-                    Register
-                </button>
+                <Link to="/signup">
+                    <button className="bg-[#2D5A27] text-white px-6 py-2.5 rounded-lg font-medium hover:bg-[#23471f] transition shadow-md">
+                        Register
+                    </button>
+                </Link>
             </div>
         </header>
     );

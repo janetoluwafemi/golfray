@@ -21,12 +21,16 @@ export default function LandingPage() {
                             Nigeria's leading agricultural marketplace connecting farmers directly with buyers. Fair prices, verified farms, reliable delivery.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4">
-                            <button className="bg-[#2D5A27] px-8 py-4 rounded-lg font-bold hover:scale-105 transition-transform shadow-lg">
-                                Sell Your Produce
-                            </button>
-                            <button className="bg-white text-[#2D5A27] px-8 py-4 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg">
-                                Explore Marketplace
-                            </button>
+                            <Link to='/dashboard' >
+                                <button className="bg-[#2D5A27] px-8 py-4 rounded-lg font-bold hover:scale-105 transition-transform shadow-lg">
+                                    Sell Your Produce
+                                </button>
+                            </Link>
+                            <Link to='/marketplace' >
+                                <button className="bg-white text-[#2D5A27] px-8 py-4 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg">
+                                    Explore Marketplace
+                                </button>
+                            </Link>
                         </div>
                     </div>
                 </div>
